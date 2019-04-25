@@ -27,7 +27,7 @@ Testing
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 There are two testing modes, verification mode and unittest mode. To run a full verification
-of the object oriiented simulator, simply run the script test/verification.m; this script
+of the object oriented simulator, simply run the script test/verification.m; this script
 runs the appropriate task sequencing for the Capstone of all scripts located in the +scripts
 library.
 
