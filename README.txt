@@ -53,4 +53,4 @@ the simulator, as well as a PDF. The tex/ directory consists of supporting equat
 reports.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-Please report any feedback to jason.kootsher@ucdenver.com
+Please report any feedback to j2kooch@vt.edu
