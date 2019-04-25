@@ -7,7 +7,7 @@ Welcome to the ASEN 5010 Low Mars Orbiter simulator!
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 This simulation code is intended to simulate a low Mars orbit satellite.
-The goal of thiis craft is to charge its batteries via solar arrays when in
+The goal of this craft is to charge its batteries via solar arrays when in
 between Mars and the sun, communicate with an orbiter on the Mars elliptic plane,
 and collect data from the surface of Mars!
 
@@ -36,6 +36,13 @@ unittest of choice. These tests will run the standalone functions that are remov
 object oriented simulator and are a great way to error check. There are only unittests for the
 first 7 tasks however, due to the fact the remaining tasks simply build on this functionality.
 If any of tasks 1-7 don't work, you have no chance of getting 8-11!
+
+To view any plots, be sure to reference the Matlab variable or object correctly! There is a
+simple plotting tool in tools/analysis/ called xplot.m that takes a data series as input and
+outputs a generic, labeled plot.
+
+Example: xplot(simulation.LMO.s.ts.data') in the command window will plot the MRP time series
+data for the LMO satellite.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 Documentation
